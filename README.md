@@ -13,7 +13,7 @@ But the point to ponder is we are not doing some illegal. I just automated the p
 
 Now how can you install it on your PC? Below are the steps you can follow:
 
-1. Goto: https://github.com/nmanumr/quizsliver/releases/latest
+1. Goto: https://github.com/mat2002/Quiz_Silver
 2. Download "QuizSliver.zip" under Assets
 2. Extract that ZIP somewhere in you PC.
 3. Open `chrome://extensions/` url in you Chrome browser.
@@ -21,13 +21,6 @@ Now how can you install it on your PC? Below are the steps you can follow:
 5. Click newly came "Load Unpacked" button and select the extracted folder.
 6. Open the CUOnline and continue solving you quiz.
 
-## How to update??
-
-Below are the steps you can follow to update the extension:
-
-1. Remove the extension from `chrome://extensions/` url
-2. Redownload the latest version from `https://github.com/itsumarfarooq/quizsliver`
-3. Install it by following the steps described above.
 
 ## How much data we have?
 The main thing that matters in not code but the MCQ's data the extension had. All the MCQs data is saved in a centralized database so if anyone ever had solved any MCQ at any time, you don't have to solve that again :).
@@ -48,11 +41,6 @@ It not only works for COMSATS Islamabad but also supports other campuses. Below 
 ## Disclaimer
 
 This extension is provided as is without any warranty of any kind. Also, Author is not responsible for any kind of damage caused by this piece of software. **USE AT YOU OWN RISK**.
-
-## FAQs
-
-1. **Who is the original author of source code?**<br>A COMSATS student named harispasha originally wrote the source code and published the compiled version of the extension [here](https://github.com/itsumarfarooq/quizsliver). 
-2. **How I got this source code?**<br>Haris Pasha was thinking to end the support for his extension and was looking for a new maintainer I contacted him, and he gave it to me.
 
 ## What's New?
 
