@@ -55,3 +55,7 @@ These few changes reduced the final bundle size from previously 1.1Mb to only 12
 ## Contact Me
 
 Email: black001anonymous@gmail.com
+
+## Note
+
+I am not the owner of this extension
