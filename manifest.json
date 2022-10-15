@@ -1,0 +1,63 @@
+{
+    "name": "Quiz Sliver",
+    "version": "1.3.6",
+    "description": "COMSATS hybrid quiz solver",
+    "manifest_version": 3,
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "permissions": [
+        "cookies",
+        "storage",
+        "webRequest",
+        "webRequestBlocking",
+        "declarativeContent",
+        "https://cuonline.cuilahore.edu.pk:8091/*",
+        "http://cuonline.cuilahore.edu.pk:8091/*",
+        "https://cms.comsats.edu.pk:8083/*",
+        "http://cms.comsats.edu.pk:8083/*",
+        "https://swl-cms.comsats.edu.pk:8082/*",
+        "http://swl-cms.comsats.edu.pk:8082/*",
+        "https://cuonline.ciitwah.edu.pk:8090/*",
+        "http://cuonline.ciitwah.edu.pk:8090/*",
+        "https://cuonline.cuiwah.edu.pk:8095/*",
+        "http://cuonline.cuiwah.edu.pk:8095/*",
+        "https://atk-cms.comsats.edu.pk:8090/*",
+        "http://atk-cms.comsats.edu.pk:8090/*",
+        "https://vhr-cms.comsats.edu.pk:8089/*",
+        "http://vhr-cms.comsats.edu.pk:8089/*",
+        "https://cdnjs.cloudflare.com/*",
+        "https://ajax.googleapis.com/*",
+        "https://www.gstatic.com/*"
+    ],
+    "host_permissions": [
+        "https://cdn.firebase.com",
+        "https://*.firebaseio.com",
+        "https://*.gstatic.com"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://cuonline.cuilahore.edu.pk:8091/*",
+                "http://cuonline.cuilahore.edu.pk:8091/*",
+                "https://cms.comsats.edu.pk:8083/*",
+                "http://cms.comsats.edu.pk:8083/*",
+                "https://swl-cms.comsats.edu.pk:8082/*",
+                "http://swl-cms.comsats.edu.pk:8082/*",
+                "https://cuonline.ciitwah.edu.pk:8090/*",
+                "http://cuonline.ciitwah.edu.pk:8090/*",
+                "https://cuonline.cuiwah.edu.pk:8095/*",
+                "http://cuonline.cuiwah.edu.pk:8095/*",
+                "https://atk-cms.comsats.edu.pk:8090/*",
+                "http://atk-cms.comsats.edu.pk:8090/*",
+                "https://vhr-cms.comsats.edu.pk:8089/*",
+                "http://vhr-cms.comsats.edu.pk:8089/*"
+            ],
+            "js": [
+                "sliver.js"
+            ]
+        }
+    ]
+}
