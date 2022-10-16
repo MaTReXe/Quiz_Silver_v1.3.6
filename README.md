@@ -14,7 +14,7 @@ But the point to ponder is we are not doing some illegal. I just automated the p
 Now how can you install it on your PC? Below are the steps you can follow:
 
 1. Goto: https://github.com/mat2002/Quiz_Silver
-2. Download "QuizSliver.zip" under Assets
+2. Download "Quiz_Silver_v1.3.6.zip" under Assets
 2. Extract that ZIP somewhere in you PC.
 3. Open `chrome://extensions/` url in you Chrome browser.
 4. Turn on Developer mode on top right corner.
